@@ -1,0 +1,56 @@
+input:focus{
+    outline: none;
+}
+.dataActive::after{
+    content:"";
+    width:13px;
+    height:13px;
+   display: block;
+   position:absolute;
+   top:40%;
+   left:110%;
+   background-color: rgb(22, 216, 125);
+   border-radius: 50%;
+   border:.5px solid rgb(22, 216, 125);
+   box-shadow: 2px 2px 20px  (22, 216, 125);
+}
+.borderLeft::before,.borderRight::after{
+    content:"";
+    width:250px;
+    height:2px;
+   display: block;
+   position:absolute;
+   top:50%;
+   left:2%;
+   background-color: lightgrey;
+  
+}
+
+.borderRight::after{
+    content:"";
+    width:240px;
+    height:2px;
+   display: block;
+   position:absolute;
+   top:50%;
+   left:58%;
+   background-color: lightgrey;
+  
+}
+.fw-500{
+    font-weight: 500;
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 12px;
+}
+.fs-17{
+    font-size: 13px;
+}
+.bg-sky{
+    background-color:#0d6dfd13;
+}
+.wh{
+    width:100vw;
+    height:100vh;
+}
