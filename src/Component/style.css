@@ -16,12 +16,12 @@ input:focus{
 }
 .borderLeft::before,.borderRight::after{
     content:"";
-    width:250px;
+    width:240px;
     height:2px;
    display: block;
    position:absolute;
    top:50%;
-   left:2%;
+   left:1.5%;
    background-color: lightgrey;
   
 }
