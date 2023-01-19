@@ -23,9 +23,9 @@ const Profile = () => {
                 </div>
                 {/* Search Bar */}
                 <div className='py-3 pt-4'>
-                    <div className=' bg-white rounded-pill px-3 py-2'>
-                    <BsSearch style={{color:"lightgrey",fontSize:19}}/>
-                        <input type="text" className='border-0 px-2' size="27" placeholder='Search Friends'/>
+                    <div className=' bg-white rounded-pill px-2 py-2'>
+                       <span style={{paddingLeft:5}}><BsSearch style={{ color: "lightgrey", fontSize: 19 }} /></span> 
+                        <input type="text" className='border-0 px-2' size="26" placeholder='Search Friends' />
 
                     </div>
                 </div>

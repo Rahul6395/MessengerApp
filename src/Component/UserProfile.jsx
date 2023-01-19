@@ -8,9 +8,9 @@ const UserProfile = () => {
             <div className='bg-light'>
                 {/* Search Bar */}
                 <div className='pb-3  '>
-                    <div className=' bg-white rounded-pill px-3 py-2 mx-3'>
-                        <BsSearch style={{ color: "lightgrey", fontSize: 19 }} />
-                        <input type="text" className='border-0 px-2' size="26" placeholder='Search People' />
+                    <div className=' bg-white rounded-pill px-2 py-2 mx-3'>
+                       <span style={{paddingLeft:5}}><BsSearch style={{ color: "lightgrey", fontSize: 19 }} /></span> 
+                        <input type="text" className='border-0 px-2' size="25" placeholder='Search People' />
 
                     </div>
                 </div>

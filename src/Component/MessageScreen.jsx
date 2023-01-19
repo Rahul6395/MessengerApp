@@ -6,8 +6,8 @@ import UserProfile from './UserProfile';
 const MessageScreen = () => {
   return (
     <div >
-   <div className='bg-primary wh pt-5'>
-<div className='container border rounded ' >
+   <div className='bg-primary  py-5'>
+<div className='  mx-auto' style={{width:1240,borderRadius:10}}>
     <div className='row '>
         <div className='col'>
         <div className='row '>
